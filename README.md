@@ -1,16 +1,80 @@
-# React + Vite
+# DigiSpace Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern **smart building analytics dashboard** built using **React + Vite**.
+The dashboard visualizes energy, water, carbon intensity, and building usage data through interactive UI components and charts.
 
-Currently, two official plugins are available:
+##  Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Deployed on Vercel:
+https://digi-space-dashboard.vercel.app/
 
-## React Compiler
+## 📊 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* Smart lighting control gauge
+* Water consumption analytics
+* Carbon intensity distribution chart
+* Energy consumption bar graph
+* Weekly footfall trend visualization
+* Modern dark dashboard UI
+* Responsive layout
 
-## Expanding the ESLint configuration
+## 🛠 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* React
+* Vite
+* JavaScript
+* CSS / Custom Styling
+* Apache Echart
+
+##  Installation & Setup
+
+Clone the repository:
+
+```
+git clone https://github.com/yourusername/digispace-dashboard.git
+```
+
+Go to the project folder:
+
+```
+cd digispace-dashboard
+```
+
+Install dependencies:
+
+```
+npm install
+```
+
+Run the development server:
+
+```
+npm run dev
+```
+
+Build for production:
+
+```
+npm run build
+```
+
+## Screen Resolution Used for Development
+
+This dashboard UI was designed using:
+
+```
+Resolution: 1920 × 1080
+```
+
+## Dashboard Preview
+
+<img width="1915" height="903" alt="image" src="https://github.com/user-attachments/assets/608c45c2-7793-4515-ae95-b48e8ababd98" />
+
+
+## Author
+
+Disha Gangar
+
+Frontend Developer (React)
+
+---
